@@ -12,5 +12,6 @@ class  Aula {
 
     def addPersona(Persona persona){
         this.personas.add(persona)
+        println("Persona añadida: ${persona.nombre} ${persona.apellidos}")
     }
 }
