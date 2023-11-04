@@ -1,5 +1,7 @@
 package es.yan
 
+import es.yan.Persona
+
 class Estudiante extend Persona{
     def carrera;
     def cursoEscolar
