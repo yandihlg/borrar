@@ -11,6 +11,6 @@ class  Aula {
     }
 
     def addPersona(Persona persona){
-        this.persona.add(persona)
+        this.personas.add(persona)
     }
 }

@@ -20,6 +20,7 @@ def crearAula(){
     def aula = new Aula()
     aula.addPersona(new Profesor('Juan', 'Perez', 'Matematicas', 1))
     aula.addPersona(new Estudiante('Pedro', 'Garcia', 'Informatica', 2))
+    println(aula)
     return aula
 }
 
