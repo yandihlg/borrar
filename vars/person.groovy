@@ -1,4 +1,4 @@
-// import org.foot.*
+import es.yan.Person
 
 def crearPerson(String nombre, String apellidos) {
   def returnValue = new Person(nombre: nombre, apellidos: apellidos)

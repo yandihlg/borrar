@@ -1,4 +1,4 @@
-// package org.foo
+package es.yan
 
 class Person{
     String nombre
