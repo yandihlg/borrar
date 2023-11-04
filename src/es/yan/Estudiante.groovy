@@ -1,8 +1,8 @@
 package es.yan
 
-import es.yan.Person
+import es.yan.Persona
 
-class Estudiante extend Person{
+class Estudiante extend Persona{
     def carrera;
     def cursoEscolar
 
