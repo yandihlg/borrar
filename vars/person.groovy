@@ -1,4 +1,4 @@
-import es.yan.Person
+import es.yan.Persona
 import es.aula.Aula
 
 // def crearPerson(String nombre, String apellidos) {
@@ -21,7 +21,7 @@ def crearAula(){
     return aula
 }
 
-def printInstanceOf(Person person){
+def printInstanceOf(Persona person){
     println(person.printInstanceOf())
 }
 
