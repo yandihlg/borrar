@@ -1,5 +1,7 @@
 import es.yan.Persona
 import es.aula.Aula
+import es.yan.Profesor
+import es.yan.Estudiante
 
 // def crearPerson(String nombre, String apellidos) {
 //   def returnValue = new Person(nombre: nombre, apellidos: apellidos)
