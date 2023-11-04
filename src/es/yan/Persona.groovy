@@ -2,7 +2,7 @@ package es.yan
 
 abstract class Persona{
     String nombre
-    String appelidos
+    String apellidos
 
     Persona(String nombre, String apellidos){
         this.nombre = nombre
