@@ -28,7 +28,8 @@ def printInstanceOf(Persona person){
     println(person.printInstanceOf())
 }
 
-def printAula(Aula aula){
+def printAula(){
+    def aula=crearAula()
     aula.personas.each { person ->
         println(person.printInstanceOf())
     }
