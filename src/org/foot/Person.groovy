@@ -1,5 +1,3 @@
-package org.foo
-
 class Person{
     String nombre
     String appelidos

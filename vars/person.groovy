@@ -1,4 +1,4 @@
-import org.foot.*
+// import org.foot.*
 
 def crearPerson(String nombre, String apellidos) {
   def returnValue = new Person(nombre: nombre, apellidos: apellidos)
