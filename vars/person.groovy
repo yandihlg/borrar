@@ -1,10 +1,10 @@
 import es.yan.Person
 import es.aula.Aula
 
-def crearPerson(String nombre, String apellidos) {
-  def returnValue = new Person(nombre: nombre, apellidos: apellidos)
-  return returnValue
-}
+// def crearPerson(String nombre, String apellidos) {
+//   def returnValue = new Person(nombre: nombre, apellidos: apellidos)
+//   return returnValue
+// }
 
 def printName(){
     println('name')
@@ -23,4 +23,10 @@ def crearAula(){
 
 def printInstanceOf(Person person){
     println(person.printInstanceOf())
+}
+
+def printAula(Aula aula){
+    aula.personas.each { person ->
+        println(person.printInstanceOf())
+    }
 }
