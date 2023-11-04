@@ -1,6 +1,6 @@
 package es.yan
 
-abstract class Person{
+abstract class Persona{
     String nombre
     String appelidos
 

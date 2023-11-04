@@ -1,8 +1,8 @@
 package es.yan
 
-import es.yan.Persona
+import es.yan.Person
 
-class Profesor extends Persona{
+class Profesor extends Person{
     def asignatura;
     def curso;
 
