@@ -1,6 +1,6 @@
 package yan.utils
 
-static class Utils{
+class Utils{
     
     static printStaticMethod(){
         println "Soy un método estático"
