@@ -4,7 +4,6 @@ enum JenkinsPermission{
     ADMINISTER("Administrador"),
     READ("Lectura"),
     RUN_SCRIPTS("Ejecutar scripts"),
-    EXTENDED_READ("Lectura extendida"),
     JOB_CREATE("Crear trabajos"),
     JOB_DELETE("Borrar trabajos"),
     JOB_CONFIGURE("Configurar trabajos"),
@@ -52,7 +51,6 @@ enum JenkinsPermission{
     VIEW_CREATE("Crear vistas"),
     VIEW_DELETE("Borrar vistas"),
     VIEW_CONFIGURE("Configurar vistas"),
-    VIEW_READ("Leer vistas"),
     VIEW_WORKSPACE("Acceder al workspace de las vistas"),
     WORKSPACE("Acceder al workspace"),
     NONE("Ninguno")
