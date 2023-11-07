@@ -64,4 +64,8 @@ enum JenkinsPermission{
     String getDescriptions(){
         return descriptions
     }
+
+    String toString(){
+        return descriptions
+    }
 }
